@@ -12,6 +12,8 @@
 		50F3B1512A958AFD00C872A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F3B1502A958AFD00C872A2 /* Assets.xcassets */; };
 		50F3B1542A958AFD00C872A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F3B1532A958AFD00C872A2 /* Preview Assets.xcassets */; };
 		50F3B15B2A958B8500C872A2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F3B15A2A958B8500C872A2 /* Launch Screen.storyboard */; };
+		50F3B15F2A95900F00C872A2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3B15E2A95900F00C872A2 /* Models.swift */; };
+		50F3B1612A9590E900C872A2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3B1602A9590E900C872A2 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		50F3B15A2A958B8500C872A2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		50F3B15C2A958C5200C872A2 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		50F3B15D2A958CE800C872A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		50F3B15E2A95900F00C872A2 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		50F3B1602A9590E900C872A2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				50F3B1522A958AFD00C872A2 /* Preview Content */,
 				50F3B15A2A958B8500C872A2 /* Launch Screen.storyboard */,
 				50F3B15C2A958C5200C872A2 /* Config.xcconfig */,
+				50F3B15E2A95900F00C872A2 /* Models.swift */,
+				50F3B1602A9590E900C872A2 /* APIService.swift */,
 			);
 			path = AI;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F3B15F2A95900F00C872A2 /* Models.swift in Sources */,
 				50F3B14F2A958AFC00C872A2 /* ContentView.swift in Sources */,
+				50F3B1612A9590E900C872A2 /* APIService.swift in Sources */,
 				50F3B14D2A958AFC00C872A2 /* AppEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
